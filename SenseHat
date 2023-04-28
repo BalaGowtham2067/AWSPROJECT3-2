@@ -1,3 +1,6 @@
+https://trinket.io/python/629be63443
+
+
 from sense_hat import SenseHat
 sense = SenseHat()
 
@@ -26,7 +29,3 @@ picture = [
 ]
 
 sense.set_pixels(picture)
-
-
-
-https://trinket.io/python/629be63443
