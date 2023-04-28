@@ -26,3 +26,7 @@ picture = [
 ]
 
 sense.set_pixels(picture)
+
+
+
+https://trinket.io/python/629be63443
