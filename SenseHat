@@ -1,0 +1,28 @@
+from sense_hat import SenseHat
+sense = SenseHat()
+
+sense.clear()
+
+r = (255,0,0)
+g = (0,255,0)
+b = (0,0,255)
+
+X = (255,255,255)
+O = (0,0,0)
+
+sense.set_pixel(3,3,r)
+sense.set_pixel(4,4,b)
+sense.set_pixel(3,4,g)
+
+picture = [
+  O,X,X,X,X,X,X,O,
+  X,O,O,O,O,O,O,X,
+  X,O,O,O,O,O,O,X,
+  X,O,O,O,O,O,O,X,
+  X,O,O,O,O,O,O,X,
+  X,O,O,O,O,O,O,X,
+  X,O,O,O,O,O,O,X,
+  O,X,X,X,X,X,X,O
+]
+
+sense.set_pixels(picture)
